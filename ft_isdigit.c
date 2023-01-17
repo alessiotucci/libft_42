@@ -6,8 +6,22 @@
 /*   By: atucci <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 11:58:58 by atucci            #+#    #+#             */
-/*   Updated: 2023/01/17 11:59:09 by atucci           ###   ########.fr       */
+/*   Updated: 2023/01/17 14:44:42 by atucci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int	ft_isdigit(int argum)
+{
+	return (argum >= 48 && argum <= 57);
+}
 
+#include <stdio.h> 
+
+int	main()
+{
+	char c;
+
+	c = 'a';
+	printf( "%d\n" , ft_isdigit(c));
+
+}
