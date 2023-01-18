@@ -6,7 +6,7 @@
 /*   By: atucci <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 11:59:33 by atucci            #+#    #+#             */
-/*   Updated: 2023/01/18 11:20:07 by atucci           ###   ########.fr       */
+/*   Updated: 2023/01/18 11:26:51 by atucci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,5 @@ int main()
 	char prova;
 
 	prova = 'p';
-	printf(ft_isalnum(prova));
+	printf("%d\n", ft_isalnum(prova));
 }

@@ -6,7 +6,7 @@
 /*   By: atucci <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 11:59:50 by atucci            #+#    #+#             */
-/*   Updated: 2023/01/18 11:20:38 by atucci           ###   ########.fr       */
+/*   Updated: 2023/01/18 11:28:14 by atucci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,5 @@ int main()
 	char prova;
 
 	prova = 'p';
-	printf(ft_isascii(prova));
+	printf("%d\n", ft_isascii(prova));
 }

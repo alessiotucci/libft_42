@@ -6,7 +6,7 @@
 /*   By: atucci <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 12:00:05 by atucci            #+#    #+#             */
-/*   Updated: 2023/01/18 11:18:57 by atucci           ###   ########.fr       */
+/*   Updated: 2023/01/18 11:24:32 by atucci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,5 @@ int main()
 	char prova;
 
 	prova = 'p';
-	printf(ft_isprint(prova));
+	printf( "%d", ft_isprint(prova));
 }
