@@ -6,7 +6,7 @@
 /*   By: atucci <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 12:00:18 by atucci            #+#    #+#             */
-/*   Updated: 2023/01/18 14:40:00 by atucci           ###   ########.fr       */
+/*   Updated: 2023/01/18 14:49:26 by atucci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@
 
 // size_t is a data type that is used to represent the size of an object in bytes.
 size_t	ft_strlen(const char *str)
+
+/*Using size_t can also help to prevent errors and make your code more portable, as it ensures that your code will work correctly on systems with different word sizes. It's always a good practice to use appropriate types, that's why size_t is recommended instead of int.*/ 
 {
 	size_t count;
 
