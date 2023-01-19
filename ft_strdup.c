@@ -6,7 +6,7 @@
 /*   By: atucci <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 12:06:46 by atucci            #+#    #+#             */
-/*   Updated: 2023/01/19 12:07:15 by atucci           ###   ########.fr       */
+/*   Updated: 2023/01/19 12:10:37 by atucci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ char	*ft_strdup(const char *sour)
 	int len;
 
 	len = ft_strlen(sour);
-	duple = malloc(len * sizeof(char));
+	dupli = malloc(len * sizeof(char));
 	
 	// we need to check if the  memory allocation is done correctly
 	if (dupli == '\0';)
