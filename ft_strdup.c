@@ -6,13 +6,13 @@
 /*   By: atucci <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 12:06:46 by atucci            #+#    #+#             */
-/*   Updated: 2023/01/19 12:05:28 by atucci           ###   ########.fr       */
+/*   Updated: 2023/01/19 12:07:15 by atucci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-char	*ft_strdup(char *sour)
+char	*ft_strdup(const char *sour)
 {
 	char *dupli; // declaration of a pointer
 	int len;
