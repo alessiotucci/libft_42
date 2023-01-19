@@ -6,7 +6,7 @@
 /*   By: atucci <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 12:02:18 by atucci            #+#    #+#             */
-/*   Updated: 2023/01/19 11:11:15 by atucci           ###   ########.fr       */
+/*   Updated: 2023/01/19 11:12:50 by atucci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,5 @@ size_t	ft_strlcat(char *dest, const char *sour, size_t destsize)
 		di++;
 	}
 	dest[cu] = '\0';
-	return (ft_strlen(dest) + ft_strlen(&src[di]));
+	return (ft_strlen(dest) + ft_strlen(&sour[di]));
 }
