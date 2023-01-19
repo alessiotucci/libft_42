@@ -6,7 +6,7 @@
 /*   By: atucci <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 12:01:12 by atucci            #+#    #+#             */
-/*   Updated: 2023/01/19 14:14:12 by atucci           ###   ########.fr       */
+/*   Updated: 2023/01/19 15:16:48 by atucci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,7 @@ int	main()
 {
 	char prova[] = "ciao a tutti";
 	char qui[40];
+	int limite = 5;
 
-	printf( "%s\n", ft_memcpy(qui, prova, strlen(prova)));
+	printf( "%s\n", ft_memcpy(qui, prova, limite));
 }
