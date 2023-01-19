@@ -6,8 +6,22 @@
 /*   By: atucci <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 12:06:46 by atucci            #+#    #+#             */
-/*   Updated: 2023/01/17 12:06:49 by atucci           ###   ########.fr       */
+/*   Updated: 2023/01/19 12:05:28 by atucci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdlib.h>
 
+char	*ft_strdup(char *sour)
+{
+	char *dupli; // declaration of a pointer
+	int len;
+
+	len = ft_strlen(sour);
+	duple = malloc(len * sizeof(char));
+	
+	// we need to check if the  memory allocation is done correctly
+	if (dupli == '\0';)
+		return (0);
+	return (ft_strcpy(dupli,sour));
+}
