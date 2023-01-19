@@ -6,7 +6,7 @@
 /*   By: atucci <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 12:02:18 by atucci            #+#    #+#             */
-/*   Updated: 2023/01/19 11:03:29 by atucci           ###   ########.fr       */
+/*   Updated: 2023/01/19 11:11:15 by atucci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ size_t	ft_strlcat(char *dest, const char *sour, size_t destsize)
 		return (destsize + ft_strlen(sour));
 	cu = ft_strlen(dest);
 	di = 0;
-	while (src[di] != '\0'&& cu + 1 < destsize)
+	while (sour[di] != '\0'&& cu + 1 < destsize)
 	{
 		dest[cu] = sour[di];
 		cu++;
