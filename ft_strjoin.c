@@ -6,7 +6,7 @@
 /*   By: atucci <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 12:09:23 by atucci            #+#    #+#             */
-/*   Updated: 2023/01/24 10:58:15 by atucci           ###   ########.fr       */
+/*   Updated: 2023/01/24 11:13:11 by atucci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
@@ -17,8 +17,6 @@
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char *str;
-	int len1;
-	int len2;
 	int lenTot;
 	size_t index; // this is the counter
 	size_t i;
@@ -27,9 +25,9 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	index = 0;
 	len1 = strlen(s1);
 	len2 = strlen(s2);
-	if (len1 == 0 || len2 == 0)
+	if (!s1 || !s2)
 		return (0);		// strings cannot be empty
-	lenTot = len1 + len2 + 1;
+	lenTot = strlen(s1) + strlen(s2) + 1;
 	str = (char *)malloc(lenTot);
 	if (str == 0)
 		return (0);  // check the  memory allocation
