@@ -6,26 +6,17 @@
 /*   By: atucci <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 12:10:04 by atucci            #+#    #+#             */
-/*   Updated: 2023/01/26 12:47:40 by atucci           ###   ########.fr       */
+/*   Updated: 2023/01/29 11:01:03 by atucci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-char **ft_split(char const *s, char c)
+int	ft_how_many_words(char const *s, char c)
 {
-	int Ci; // 	counter of the index of the substring
-	int Cs; // counter to itereate throught the input
-	char **strings; // declaring the 2D array
-	int index; // index of the substrings
-	int start; // start of  a substring
-	int end; // end of a substring
-	int sublen; // lenght of the substring
-
-	Cs = 0;
-	Ci = 0;
+	int Cs = 0;
+	int Ci = 0;
 	while (Cs < strlen(s))
 	{
 		while (Cs < strlen(s) && s[Cs] == c)
@@ -43,9 +34,42 @@ char **ft_split(char const *s, char c)
 			Cs++;
 		}
 	}
+return (Ci);
+}
 
-	strings = malloc(sizeof(char *) * (Ci + 1));
-	strings[Ci] = 0;
+char **ft_split(char const *s, char c)
+{
+	int Ci; // 	counter of the index of the substring
+	int Cs; // counter to itereate throught the input
+	char **strings; // declaring the 2D array
+	int index; // index of the substrings
+	int start; // start of  a substring
+	int end; // end of a substring
+	int sublen; // lenght of the substring
+
+//	Ci = ft_how_many_words(s,c);
+ /*	Cs = 0;
+	
+	while (Cs < strlen(s))
+	{
+		while (Cs < strlen(s) && s[Cs] == c)
+		{
+			Cs++; // increment the Cs counter if the char is a separator
+		}
+
+		if (Cs < strlen(s)) // this IF statement allow me to increment Ci correctly
+		{
+			Ci++; // increment  the Ci counter, index of the substrings
+		}
+
+		while (Cs < strlen(s) && s[Cs] != c)
+		{
+			Cs++;
+		}
+	} */
+
+	strings = malloc(sizeof(char *) * (ft_how_many_words(s,c) + 1));
+	strings[ft_how_many_words(s,c)] = 0;
 
 	index = 0;
 	Cs = 0; // resetting the input counter to zero
