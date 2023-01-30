@@ -6,7 +6,7 @@
 /*   By: atucci <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 12:10:24 by atucci            #+#    #+#             */
-/*   Updated: 2023/01/24 16:22:33 by atucci           ###   ########.fr       */
+/*   Updated: 2023/01/30 11:23:04 by atucci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,10 @@
 int	digits(int n)
 {
 	int count = 0;
-	count = (n <= 0) ? 1 : 0;
+	if (n > 0)
+		count = 0;
+	else 
+		count = 1;
 
 // (n) is less than or equal to zero. If it is, then the code is setting the length (len) to be 1. 
 

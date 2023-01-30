@@ -6,7 +6,7 @@
 /*   By: atucci <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 12:09:03 by atucci            #+#    #+#             */
-/*   Updated: 2023/01/25 18:58:40 by atucci           ###   ########.fr       */
+/*   Updated: 2023/01/29 15:56:34 by atucci           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
@@ -19,7 +19,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	size_t count;
 
 	count = 0;
-	str = (char *)malloc(len);
+	str = (char *)malloc(len + 1); // dont forget to add + 1
 	if (str == 0)
 		return (0); // check if the  allocation memory went well.
 		if (start >= strlen(s))
@@ -40,6 +40,6 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 int	main()
 {
 	char prova[] = "sweater";
-	printf( "%s\n", ft_substr(prova, 20, 3));
+	printf( "%s\n", ft_substr(prova, 3, 3));
 }
 
