@@ -1,69 +1,39 @@
+# Introduction
 
-  <body>
-    <h1>Introduction</h1>
-    <p>This repository contains a collection of functions implemented in C language and can be used as a personal library. All functions have been tested and are functioning as intended. The functions are grouped according to the standard library that they can be found in.</p>
-<h2>Standard Library Functions</h2>
-<h3>String Library (string.h)</h3>
-<ul>
-  <li>ft_strlcat</li>
-  <li>ft_strlcpy</li>
-</ul>
+This repository contains a collection of functions implemented in C language and can be used as a personal library. All functions have been tested and are functioning as intended. The functions are grouped according to the standard library that they can be found in.
 
-<h3>Character Classification Library (ctype.h)</h3>
-<ul>
-  <li>ft_isalnum</li>
-  <li>ft_isalpha</li>
-  <li>ft_isascii</li>
-  <li>ft_isdigit</li>
-  <li>ft_isprint</li>
-</ul>
+## Standard Library Functions
 
-<h3>String Functions (string.h)</h3>
-<ul>
-  <li>ft_strchr</li>
-  <li>ft_strdup</li>
-  <li>ft_strlen</li>
-  <li>ft_strncmp</li>
-  <li>ft_strnstr</li>
-  <li>ft_strrchr</li>
-  <li>ft_tolower</li>
-  <li>ft_toupper</li>
-</ul>
+### String Library (string.h)
 
-<h3>Memory Management (string.h)</h3>
-<ul>
-  <li>ft_bzero</li>
-  <li>ft_calloc</li>
-  <li>ft_memchr</li>
-  <li>ft_memcmp</li>
-  <li>ft_memcpy</li>
-  <li>ft_memmove</li>
-  <li>ft_memmove_fixed</li>
-  <li>ft_memset</li>
-</ul>
+- [ft_strlcat](https://github.com/atucci/libft_42/blob/main/ft_strlcat.c)
+- [ft_strlcpy](https://github.com/atucci/libft_42/blob/main/ft_strlcpy.c)
 
-<h3>String Transformation Functions (stdlib.h and string.h)</h3>
-<ul>
-  <li>ft_atoi</li>
-  <li>ft_itoa</li>
-  <li>ft_split</li>
-  <li>ft_strmapi</li>
-</ul>
+### Character Classification Library (ctype.h)
 
-<h3>String Concatenation and Copying (string.h)</h3>
-<ul>
-  <li>ft_strjoin</li>
-  <li>ft_substr</li>
-  <li>ft_strtrim</li>
-</ul>
+- [ft_isalnum](https://github.com/atucci/libft_42/blob/main/ft_isalnum.c)
+- [ft_isalpha](https://github.com/atucci/libft_42/blob/main/ft_isalpha.c)
+- [ft_isascii](https://github.com/atucci/libft_42/blob/main/ft_isascii.c)
+- [ft_isdigit](https://github.com/atucci/libft_42/blob/main/ft_isdigit.c)
+- [ft_isprint](https://github.com/atucci/libft_42/blob/main/ft_isprint.c)
 
-<h3>Linked List Functions (list.h)</h3>
-<ul>
-  <li>ft_lstadd_back</li>
-  <li>ft_lstadd_front</li>
-  <li>ft_lstclear</li>
-  <li>ft_lstdelone</li>
-  <li>ft_lstiter</li>
-  <li>ft_lstlast</li>
-  <li>
+### String Functions (string.h)
 
+- [ft_strchr](https://github.com/atucci/libft_42/blob/main/ft_strchr.c)
+- [ft_strdup](https://github.com/atucci/libft_42/blob/main/ft_strdup.c)
+- [ft_strlen](https://github.com/atucci/libft_42/blob/main/ft_strlen.c)
+- [ft_strncmp](https://github.com/atucci/libft_42/blob/main/ft_strncmp.c)
+- [ft_strnstr](https://github.com/atucci/libft_42/blob/main/ft_strnstr.c)
+- [ft_strrchr](https://github.com/atucci/libft_42/blob/main/ft_strrchr.c)
+- [ft_tolower](https://github.com/atucci/libft_42/blob/main/ft_tolower.c)
+- [ft_toupper](https://github.com/atucci/libft_42/blob/main/ft_toupper.c)
+
+### Memory Management (string.h)
+
+- [ft_bzero](https://github.com/atucci/libft_42/blob/main/ft_bzero.c)
+- [ft_calloc](https://github.com/atucci/libft_42/blob/main/ft_calloc.c)
+- [ft_memchr](https://github.com/atucci/libft_42/blob/main/ft_memchr.c)
+- [ft_memcmp](https://github.com/atucci/libft_42/blob/main/ft_memcmp.c)
+- [ft_memcpy](https://github.com/atucci/libft_42/blob/main/ft_memcpy.c)
+- [ft_memmove](https://github.com/atucci/libft_42/blob/main/ft_memmove.c)
+- [ft_memmove_fixed](https://github.com/atucci/libft_42/blob/main/ft_memmove)
