@@ -2,6 +2,12 @@
 
 This repository contains a collection of functions implemented in C language and can be used as a personal library. All functions have been tested and are functioning as intended. 
 
+  ### Makefile and Libft.h (header)
+| function name | Description | youtube links |
+ | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
+   | [`Makefile`](https://github.com/alessiotucci/libft_42/blob/master/Makefile) | description | video|
+   | [`libft.h`](https://github.com/alessiotucci/libft_42/blob/master/libft.h) | description | video|
+
   ### <ctype.h> library
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
@@ -18,48 +24,45 @@ This repository contains a collection of functions implemented in C language and
  | [`ft_bzero`](https://github.com/alessiotucci/libft_42/blob/master/ft_bzero.c) | description | video|
  | [`ft_calloc`](https://github.com/alessiotucci/libft_42/blob/master/ft_calloc.c) | description | video| 
  | [`ft_memchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_memchr.c) | description | video|
-  | [`ft_memcmp`](https://github.com/alessiotucci/libft_42/blob/master/ft_memcmp.c) | description | video|
-   | [`ft_memcpy`](https://github.com/alessiotucci/libft_42/blob/master/ft_memcpy.c) | description | video| 
-   | [`ft_memmove`](https://github.com/alessiotucci/libft_42/blob/master/ft_memmove.c) | description | video|
-   | [`ft_memset`](https://github.com/alessiotucci/libft_42/blob/master/ft_memset.c) | description | video|
+ | [`ft_memcmp`](https://github.com/alessiotucci/libft_42/blob/master/ft_memcmp.c) | description | video|
+ | [`ft_memcpy`](https://github.com/alessiotucci/libft_42/blob/master/ft_memcpy.c) | description | video| 
+ | [`ft_memmove`](https://github.com/alessiotucci/libft_42/blob/master/ft_memmove.c) | description | video|
+ | [`ft_memmove_fixed`](https://github.com/alessiotucci/libft_42/blob/master/ft_memmove_fixed.c) | description | video|
+ | [`ft_memset`](https://github.com/alessiotucci/libft_42/blob/master/ft_memset.c) | description | video|
  
- ### Libft
+ ### Strings function 
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
-   | [`ft_strlcat`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlcat.c) | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_strlcpy`]()| The channel ID to use for the feed <sup>📺</sup> | Required |
-   | [`ft_isalnum`]()| The channel ID to use for the feed <sup>📺</sup> | Required |
-   | [`ft_isalpha`]()| The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_isascii`]()| The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_isdigit`]()| The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_isprint`]()| The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_strchr`]()| The channel ID to use for the feed <sup>📺</sup> | Required |   | `prova` | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_strdup`]()| The channel ID to use for the feed <sup>📺</sup> | Required |
-   | [`ft_strlen`]()| The channel ID to use for the feed <sup>📺</sup> | Required |
-   | [`ft_strncmp`]()| The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_strnstr`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_strrchr`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_tolower`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_toupper`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_bzero`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_calloc`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_memchr`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_memcmp`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_memcpy`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_memmove`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`ft_memmove_fixed`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-  ### Libft
+ | [`ft_strchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strchr.c) | description | video|
+ | [`ft_strlcat`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlcat.c) | description | video|
+ | [`ft_strlcpy`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlcpy.c) | description | video| 
+ | [`ft_strlen`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlen.c) | description | video|
+ | [`ft_strmapi`](https://github.com/alessiotucci/libft_42/blob/master/ft_strmapi.c) | description | video|
+ | [`ft_strncmp`](https://github.com/alessiotucci/libft_42/blob/master/ft_strncmp.c) | description | video|
+ | [`ft_strnstr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strnstr.c) | description | video|
+ | [`ft_strchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strchr.c) | description | video|
+ | [`ft_strrchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strrchr.c) | description | video|
+ | [`ft_strtrim`](https://github.com/alessiotucci/libft_42/blob/master/ft_strtrim.c) | description | video|
+ | [`ft_substr`](https://github.com/alessiotucci/libft_42/blob/master/ft_substr.c) | description | video|
+   
+   
+   
+  
+  ### Other function (more complex)
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required |
+| [`ft_atoi`](https://github.com/alessiotucci/libft_42/blob/master/ft_atoi.c) | description | video| 
+| [`ft_strdup`](https://github.com/alessiotucci/libft_42/blob/master/ft_strdup.c) | description | video| 
+| [`ft_strjoin`](https://github.com/alessiotucci/libft_42/blob/master/ft_strjoin.c) | description | video| 
+| [`ft_split`](https://github.com/alessiotucci/libft_42/blob/master/ft_split.c) | description | video| 
+| [`ft_itoa`](https://github.com/alessiotucci/libft_42/blob/master/ft_itoa.c) | description | video|
+| [`ft_striteri`](https://github.com/alessiotucci/libft_42/blob/master/ft_striteri.c) | description | video| 
+| [`ft_putchar_fd`](https://github.com/alessiotucci/libft_42/blob/master/ft_putchar_fd.c) | description | video| 
+| [`ft_putstr_fd`](https://github.com/alessiotucci/libft_42/blob/master/ft_putstr_fd.c) | description | video|
+ | [`ft_putendl_fd`](https://github.com/alessiotucci/libft_42/blob/master/ft_putendl_fd.c) | description | video| 
+ | [`ft_putnbr_fd`](https://github.com/alessiotucci/libft_42/blob/master/ft_putnbr_fd.c) | description | video|
+  | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
+
    ### STDDEF.H: library with the list function
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
