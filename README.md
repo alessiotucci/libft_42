@@ -5,7 +5,7 @@ This repository contains a collection of functions implemented in C language and
   ### Makefile and Libft.h (header)
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
-   | [`Makefile`](https://github.com/alessiotucci/libft_42/blob/master/Makefile) | Makefile helps you compile all your .c files together | video|
+   | [`Makefile`](https://github.com/alessiotucci/libft_42/blob/master/Makefile) | Makefile helps you compile all your .c files together. After the piscine you most likely will need it in all your project, learn the syntax  |[![Free Coding school 42 Roma Luiss](https://ytcards.demolab.com/?id=GExnnTaBELk&ab_channel=BarryBrownchanneli&title=Makefile+tutorial&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250&duration=779 "Make file tutorial")](https://www.youtube.com/live/GExnnTaBELk?feature=share)|
    | [`libft.h`](https://github.com/alessiotucci/libft_42/blob/master/libft.h) | this is the header file where you should add all the prototype | here I will add a  useful  youtube  video|
 
   ### <ctype.h> library
