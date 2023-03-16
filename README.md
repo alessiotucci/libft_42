@@ -6,7 +6,7 @@ This repository contains a collection of functions implemented in C language and
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
    | [`Makefile`](https://github.com/alessiotucci/libft_42/blob/master/Makefile) | Makefile helps you compile all your .c files together | video|
-   | [`libft.h`](https://github.com/alessiotucci/libft_42/blob/master/libft.h) | description | video|
+   | [`libft.h`](https://github.com/alessiotucci/libft_42/blob/master/libft.h) | this is the header file where you should add all the prototype | here I will add a  useful  youtube  video|
 
   ### <ctype.h> library
 | function name | Description | youtube links |
