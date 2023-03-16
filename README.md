@@ -1,4 +1,4 @@
-# Introduction
+# Libft Introduction
 
 This repository contains a collection of functions implemented in C language and can be used as a personal library. All functions have been tested and are functioning as intended. 
 
@@ -16,17 +16,17 @@ This repository contains a collection of functions implemented in C language and
    | [`ft_strdup`]()| The channel ID to use for the feed <sup>📺</sup> | Required |
    | [`ft_strlen`]()| The channel ID to use for the feed <sup>📺</sup> | Required |
    | [`ft_strncmp`]()| The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
+   | [`ft_strnstr`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
+   | [`ft_strrchr`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
+   | [`ft_tolower`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
+   | [`ft_toupper`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
+   | [`ft_bzero`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
+   | [`ft_calloc`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
+   | [`ft_memchr`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
+   | [`ft_memcmp`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
+   | [`ft_memcpy`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
+   | [`ft_memmove`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
+   | [`ft_memmove_fixed`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
    | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
    | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
    | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
