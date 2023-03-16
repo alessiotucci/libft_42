@@ -12,7 +12,18 @@ This repository contains a collection of functions implemented in C language and
    | [`ft_isprint`](https://github.com/alessiotucci/libft_42/blob/master/ft_isprint.c) | description | video| 
    | [`ft_tolower`](https://github.com/alessiotucci/libft_42/blob/master/ft_tolower.c) | description | video| 
    | [`ft_toupper`](https://github.com/alessiotucci/libft_42/blob/master/ft_toupper.c) | description | video|
-  ### Libft
+   ### Memory functions
+| function name | Description | youtube links |
+ | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
+ | [`ft_bzero`](https://github.com/alessiotucci/libft_42/blob/master/ft_bzero.c) | description | video|
+ | [`ft_calloc`](https://github.com/alessiotucci/libft_42/blob/master/ft_calloc.c) | description | video| 
+ | [`ft_memchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_memchr.c) | description | video|
+  | [`ft_memcmp`](https://github.com/alessiotucci/libft_42/blob/master/ft_memcmp.c) | description | video|
+   | [`ft_memcpy`](https://github.com/alessiotucci/libft_42/blob/master/ft_memcpy.c) | description | video| 
+   | [`ft_memmove`](https://github.com/alessiotucci/libft_42/blob/master/ft_memmove.c) | description | video|
+   | [`ft_memset`](https://github.com/alessiotucci/libft_42/blob/master/ft_memset.c) | description | video|
+ 
+ ### Libft
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
    | [`ft_strlcat`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlcat.c) | The channel ID to use for the feed <sup>📺</sup> | Required | 
