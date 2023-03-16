@@ -2,10 +2,20 @@
 
 This repository contains a collection of functions implemented in C language and can be used as a personal library. All functions have been tested and are functioning as intended. 
 
-### Libft
+  ### <ctype.h> library
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
-  | [`ft_strlcat`](https://github.com/atucci/libft_42/blob/main/ft_strlcat.c) | The channel ID to use for the feed <sup>📺</sup> | Required | 
+   | [`ft_isalnum`](https://github.com/alessiotucci/libft_42/blob/master/ft_isalnum.c) | description | video|
+ | [`ft_isalpha`](https://github.com/alessiotucci/libft_42/blob/master/ft_isalpha.c) | description | video|
+ | [`ft_isascii`](https://github.com/alessiotucci/libft_42/blob/master/ft_isascii.c) | description | video|
+  | [`ft_isdigit`](https://github.com/alessiotucci/libft_42/blob/master/ft_isdigit.c) | description | video|
+   | [`ft_isprint`](https://github.com/alessiotucci/libft_42/blob/master/ft_isprint.c) | description | video| 
+   | [`ft_tolower`](https://github.com/alessiotucci/libft_42/blob/master/ft_tolower.c) | description | video| 
+   | [`ft_toupper`](https://github.com/alessiotucci/libft_42/blob/master/ft_toupper.c) | description | video|
+  ### Libft
+| function name | Description | youtube links |
+ | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
+   | [`ft_strlcat`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlcat.c) | The channel ID to use for the feed <sup>📺</sup> | Required | 
    | [`ft_strlcpy`]()| The channel ID to use for the feed <sup>📺</sup> | Required |
    | [`ft_isalnum`]()| The channel ID to use for the feed <sup>📺</sup> | Required |
    | [`ft_isalpha`]()| The channel ID to use for the feed <sup>📺</sup> | Required | 
@@ -27,7 +37,9 @@ This repository contains a collection of functions implemented in C language and
    | [`ft_memcpy`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
    | [`ft_memmove`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
    | [`ft_memmove_fixed`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
-   | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
+  ### Libft
+| function name | Description | youtube links |
+ | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
    | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
    | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
    | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
@@ -37,3 +49,15 @@ This repository contains a collection of functions implemented in C language and
    | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
    | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required | 
    | [`prova`]() | The channel ID to use for the feed <sup>📺</sup> | Required |
+   ### STDDEF.H: library with the list function
+| function name | Description | youtube links |
+ | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
+| [`ft_lstadd_back`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstadd_back.c) | description | video|
+ | [`ft_lstadd_front`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstadd_front.c) | description | video| 
+ | [`ft_lstclear`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstclear.c) | description | video| 
+ | [`ft_lstdelone`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstdelone.c) | description | video| 
+ | [`ft_lstiter`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstiter.c) | description | video| 
+ | [`ft_lstlast`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstlast.c) | description | video| 
+ | [`ft_lstmap`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstmap.c) | description | video|
+  | [`ft_lstnew`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstnew.c) | description | video| 
+ | [`ft_lstsize`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstsize.c) | description | video|
