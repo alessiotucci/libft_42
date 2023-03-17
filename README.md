@@ -5,8 +5,9 @@ This repository contains a collection of functions implemented in C language and
   ### Makefile and Libft.h (header)
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
-   | [`Makefile`](https://github.com/alessiotucci/libft_42/blob/master/Makefile) | Makefile helps you compile all your .c files together. After the piscine you most likely will need it in all your project, learn the syntax  |[![Free Coding school 42 Roma Luiss](https://ytcards.demolab.com/?id=GExnnTaBELk&ab_channel=BarryBrownchanneli&title=Makefile+tutorial&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250&duration=779 "Make file tutorial")](https://www.youtube.com/live/GExnnTaBELk?feature=share)|
-   | [`libft.h`](https://github.com/alessiotucci/libft_42/blob/master/libft.h) | this is the header file where you should add all the prototype | here I will add a  useful  youtube  video|
+   | [`Makefile`](https://github.com/alessiotucci/libft_42/blob/master/Makefile) | Makefile helps you compile all your .c files together. After the piscine you most likely will need it in all your project, learn the syntax  |[![Makefile video](https://ytcards.demolab.com/?id=GExnnTaBELk&ab_channel=BarryBrownchanneli&title=Makefile+tutorial&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250&duration=779 "Make file tutorial")](https://www.youtube.com/live/GExnnTaBELk?feature=share)|
+   | [`libft.h`](https://github.com/alessiotucci/libft_42/blob/master/libft.h) | this is the header file where you should add all the prototype |[![](https://ytcards.demolab.com/?id=x8gsHFBW7zY&ab_channel=PortfolioCoursesi&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Free coding school 42 Roma")](https://youtu.be/x8gsHFBW7zY)
+|
 
   ### <ctype.h> library
 | function name | Description | youtube links |
@@ -33,7 +34,7 @@ This repository contains a collection of functions implemented in C language and
  ### Strings function 
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
- | [`ft_strchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strchr.c) | description | video|
+ | [`ft_strchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strchr.c) | description | [![](https://ytcards.demolab.com/?id=x8gsHFBW7zY&ab_channel=PortfolioCourses&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Free coding school 42 Roma")](https://youtu.be/x8gsHFBW7zY)|
  | [`ft_strlcat`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlcat.c) | description | video|
  | [`ft_strlcpy`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlcpy.c) | description | video| 
  | [`ft_strlen`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlen.c) | description | video|
@@ -55,7 +56,7 @@ This repository contains a collection of functions implemented in C language and
 | [`ft_strdup`](https://github.com/alessiotucci/libft_42/blob/master/ft_strdup.c) | description | video| 
 | [`ft_strjoin`](https://github.com/alessiotucci/libft_42/blob/master/ft_strjoin.c) | description | video| 
 | [`ft_split`](https://github.com/alessiotucci/libft_42/blob/master/ft_split.c) | description | video| 
-| [`ft_itoa`](https://github.com/alessiotucci/libft_42/blob/master/ft_itoa.c) | description | video|
+| [`ft_itoa`](https://github.com/alessiotucci/libft_42/blob/master/ft_itoa.c) | description | [![](https://ytcards.demolab.com/?id=x8gsHFBW7zY&ab_channel=PortfolioCourses&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Free coding school 42 Roma")](https://youtu.be/x8gsHFBW7zY)|
 | [`ft_striteri`](https://github.com/alessiotucci/libft_42/blob/master/ft_striteri.c) | description | video| 
 | [`ft_putchar_fd`](https://github.com/alessiotucci/libft_42/blob/master/ft_putchar_fd.c) | description | video| 
 | [`ft_putstr_fd`](https://github.com/alessiotucci/libft_42/blob/master/ft_putstr_fd.c) | description | video|
@@ -66,7 +67,7 @@ This repository contains a collection of functions implemented in C language and
    ### STDDEF.H: library with the list function
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
-| [`ft_lstadd_back`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstadd_back.c) | description | video|
+| [`ft_lstadd_back`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstadd_back.c) | description | [![](https://ytcards.demolab.com/?id=x8gsHFBW7zY&ab_channel=PortfolioCourses&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Free coding school 42 Roma")](https://youtu.be/x8gsHFBW7zY)|
  | [`ft_lstadd_front`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstadd_front.c) | description | video| 
  | [`ft_lstclear`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstclear.c) | description | video| 
  | [`ft_lstdelone`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstdelone.c) | description | video| 
