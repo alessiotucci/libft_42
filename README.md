@@ -5,7 +5,7 @@ This repository contains a collection of functions implemented in C language and
   ### Makefile and Libft.h (header)
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
-   | [`Makefile`](https://github.com/alessiotucci/libft_42/blob/master/Makefile) | Makefile helps you compile all your .c files together. After the piscine you most likely will need it in all your project, learn the syntax  |[![Makefile video](https://ytcards.demolab.com/?id=GExnnTaBELk&ab_channel=BarryBrownchanneli&title=Makefile+tutorial&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250&duration=779 "Make file tutorial")](https://www.youtube.com/live/GExnnTaBELk?feature=share)|
+   | [`Makefile`](https://github.com/alessiotucci/libft_42/blob/master/Makefile) | Makefile helps you compile all your .c files together. After the piscine you most likely will need it in all your project, learn the syntax  | [![Makefile](https://ytcards.demolab.com/?id=GExnnTaBELk&ab_channel=BarryBrown&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Makefile")](https://www.youtube.com/live/GExnnTaBELk?feature=share)|
    | [`libft.h`](https://github.com/alessiotucci/libft_42/blob/master/libft.h) | this is the header file where you should add all the prototype |[![](https://ytcards.demolab.com/?id=x8gsHFBW7zY&ab_channel=PortfolioCoursesi&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Free coding school 42 Roma")](https://youtu.be/x8gsHFBW7zY)
 |
 
@@ -13,12 +13,12 @@ This repository contains a collection of functions implemented in C language and
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
    | [`ft_isalnum`](https://github.com/alessiotucci/libft_42/blob/master/ft_isalnum.c) |The isalnum() function checks whether the argument passed is an alphanumeric character (alphabet or number) or not. It is defined in the ctype.h header file| video|
- | [`ft_isalpha`](https://github.com/alessiotucci/libft_42/blob/master/ft_isalpha.c) | description | video|
- | [`ft_isascii`](https://github.com/alessiotucci/libft_42/blob/master/ft_isascii.c) | description | video|
-  | [`ft_isdigit`](https://github.com/alessiotucci/libft_42/blob/master/ft_isdigit.c) | description | video|
-   | [`ft_isprint`](https://github.com/alessiotucci/libft_42/blob/master/ft_isprint.c) | description | video| 
-   | [`ft_tolower`](https://github.com/alessiotucci/libft_42/blob/master/ft_tolower.c) | description | video| 
-   | [`ft_toupper`](https://github.com/alessiotucci/libft_42/blob/master/ft_toupper.c) | description | video|
+ | [`ft_isalpha`](https://github.com/alessiotucci/libft_42/blob/master/ft_isalpha.c) |The isalpha() function checks whether a character is an alphabet or not. In C programming, isalpha() function checks whether a character is an alphabet (a to z and A-Z) or not.If a character passed to isalpha() is an alphabet, it returns a non-zero integer, if not it returns 0.|video|
+ | [`ft_isascii`](https://github.com/alessiotucci/libft_42/blob/master/ft_isascii.c) |The isascii() function tests if a given character, in the current locale, can be represented as a valid 7–bit US-ASCII character.| video|
+  | [`ft_isdigit`](https://github.com/alessiotucci/libft_42/blob/master/ft_isdigit.c) |The isdigit() function checks whether a character is numeric character (0-9) or not.Function isdigit() takes a single argument in the form of an integer and returns the value of type int.Even though, isdigit() takes integer as an argument, character is passed to the function. Internally, the character is converted to its ASCII value for the check.| video|
+   | [`ft_isprint`](https://github.com/alessiotucci/libft_42/blob/master/ft_isprint.c) |The isprint() function checks whether a character is a printable character or not.Those characters that occupies printing space are known as printable characters.Printable characters are just the opposite of control characters which can be checked using iscntrl().| video| 
+   | [`ft_tolower`](https://github.com/alessiotucci/libft_42/blob/master/ft_tolower.c) |The tolower() function takes an uppercase alphabet and convert it to a lowercase character.If the arguments passed to the tolower() function is other than an uppercase alphabet, it returns the same character that is passed to the function| video| 
+   | [`ft_toupper`](https://github.com/alessiotucci/libft_42/blob/master/ft_toupper.c) |The toupper() function converts a lowercase alphabet to an uppercase alphabet.| video|
    ### Memory functions
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
@@ -67,7 +67,7 @@ This repository contains a collection of functions implemented in C language and
    ### STDDEF.H: library with the list function
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
-| [`ft_lstadd_back`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstadd_back.c) | description | [![](https://ytcards.demolab.com/?id=x8gsHFBW7zY&ab_channel=PortfolioCourses&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Free coding school 42 Roma")](https://youtu.be/x8gsHFBW7zY)|
+| [`ft_lstadd_back`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstadd_back.c) |What is Linked List in C? A Linked List is a linear data structure. Every linked list has two parts, the data section and the address section that holds the address of the next element in the list, which is called a node.| [![](https://ytcards.demolab.com/?id=x8gsHFBW7zY&ab_channel=PortfolioCourses&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Free coding school 42 Roma")](https://youtu.be/x8gsHFBW7zY)|
  | [`ft_lstadd_front`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstadd_front.c) | description | video| 
  | [`ft_lstclear`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstclear.c) | description | video| 
  | [`ft_lstdelone`](https://github.com/alessiotucci/libft_42/blob/master/ft_lstdelone.c) | description | video| 
