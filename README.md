@@ -12,7 +12,7 @@ This repository contains a collection of functions implemented in C language and
   ### <ctype.h> library
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
-   | [`ft_isalnum`](https://github.com/alessiotucci/libft_42/blob/master/ft_isalnum.c) | description | video|
+   | [`ft_isalnum`](https://github.com/alessiotucci/libft_42/blob/master/ft_isalnum.c) |The isalnum() function checks whether the argument passed is an alphanumeric character (alphabet or number) or not. It is defined in the ctype.h header file| video|
  | [`ft_isalpha`](https://github.com/alessiotucci/libft_42/blob/master/ft_isalpha.c) | description | video|
  | [`ft_isascii`](https://github.com/alessiotucci/libft_42/blob/master/ft_isascii.c) | description | video|
   | [`ft_isdigit`](https://github.com/alessiotucci/libft_42/blob/master/ft_isdigit.c) | description | video|
@@ -23,9 +23,9 @@ This repository contains a collection of functions implemented in C language and
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
  | [`ft_bzero`](https://github.com/alessiotucci/libft_42/blob/master/ft_bzero.c) | description | video|
- | [`ft_calloc`](https://github.com/alessiotucci/libft_42/blob/master/ft_calloc.c) | description | video| 
- | [`ft_memchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_memchr.c) | description | video|
- | [`ft_memcmp`](https://github.com/alessiotucci/libft_42/blob/master/ft_memcmp.c) | description | video|
+ | [`ft_calloc`](https://github.com/alessiotucci/libft_42/blob/master/ft_calloc.c) |The calloc() function in C language is used for dynamic memory allocation. We can allocate multiple blocks with the same given size of memory for each block using calloc in c. The calloc() function returns the void* on the successful memory allocation.| [![](https://ytcards.demolab.com/?id=SKBnxCq3HvM&ab_channel=PortfolioCourses&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "calloc explained")](https://youtu.be/SKBnxCq3HvM)| 
+ | [`ft_memchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_memchr.c) |The C library function void *memchr(const void *str, int c, size_t n) searches for the first occurrence of the character c (an unsigned char) in the first n bytes of the string pointed to, by the argument str.| video|
+ | [`ft_memcmp`](https://github.com/alessiotucci/libft_42/blob/master/ft_memcmp.c) |The C library function int memcmp(const void *str1, const void *str2, size_t n)) compares the first n bytes of memory area str1 and memory area str2.| video|
  | [`ft_memcpy`](https://github.com/alessiotucci/libft_42/blob/master/ft_memcpy.c) | description | video| 
  | [`ft_memmove`](https://github.com/alessiotucci/libft_42/blob/master/ft_memmove.c) | description | video|
  | [`ft_memmove_fixed`](https://github.com/alessiotucci/libft_42/blob/master/ft_memmove_fixed.c) | description | video|
@@ -34,7 +34,7 @@ This repository contains a collection of functions implemented in C language and
  ### Strings function 
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
- | [`ft_strchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strchr.c) | description | [![](https://ytcards.demolab.com/?id=x8gsHFBW7zY&ab_channel=PortfolioCourses&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Free coding school 42 Roma")](https://youtu.be/x8gsHFBW7zY)|
+ | [`ft_strchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strchr.c) |The strchr() function returns a pointer to the first occurrence of c that is converted to a character in string. The function returns NULL if the specified character is not found.| [![](https://ytcards.demolab.com/?id=x8gsHFBW7zY&ab_channel=PortfolioCourses&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Free coding school 42 Roma")](https://youtu.be/x8gsHFBW7zY)|
  | [`ft_strlcat`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlcat.c) | description | video|
  | [`ft_strlcpy`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlcpy.c) | description | video| 
  | [`ft_strlen`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlen.c) | description | video|
@@ -52,7 +52,7 @@ This repository contains a collection of functions implemented in C language and
   ### Other function (more complex)
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
-| [`ft_atoi`](https://github.com/alessiotucci/libft_42/blob/master/ft_atoi.c) | description | video| 
+| [`ft_atoi`](https://github.com/alessiotucci/libft_42/blob/master/ft_atoi.c) |The atoi() function converts a character string to an integer value. The input string is a sequence of characters that can be interpreted as a numeric value of the specified return type. The function stops reading the input string at the first character that it cannot recognize as part of a number.| [![](https://ytcards.demolab.com/?id=2I9XO8jwZCA&ab_channel=TECHDOSE&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Implement atoi")](https://youtu.be/2I9XO8jwZCA)| 
 | [`ft_strdup`](https://github.com/alessiotucci/libft_42/blob/master/ft_strdup.c) | description | video| 
 | [`ft_strjoin`](https://github.com/alessiotucci/libft_42/blob/master/ft_strjoin.c) | description | video| 
 | [`ft_split`](https://github.com/alessiotucci/libft_42/blob/master/ft_split.c) | description | video| 
