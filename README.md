@@ -22,22 +22,23 @@ This repository contains a collection of functions implemented in C language and
    ### Memory functions
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
- | [`ft_bzero`](https://github.com/alessiotucci/libft_42/blob/master/ft_bzero.c) | description | video|
+ | [`ft_bzero`](https://github.com/alessiotucci/libft_42/blob/master/ft_bzero.c) |The bzero() function fills the first n bytes of the object pointed to by dst with zero (NUL) bytes. This function is similar to the ANSI memset() function. New code should use the ANSI function.| video|
  | [`ft_calloc`](https://github.com/alessiotucci/libft_42/blob/master/ft_calloc.c) |The calloc() function in C language is used for dynamic memory allocation. We can allocate multiple blocks with the same given size of memory for each block using calloc in c. The calloc() function returns the void* on the successful memory allocation.| [![](https://ytcards.demolab.com/?id=SKBnxCq3HvM&ab_channel=PortfolioCourses&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "calloc explained")](https://youtu.be/SKBnxCq3HvM)| 
  | [`ft_memchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_memchr.c) |The C library function void *memchr(const void *str, int c, size_t n) searches for the first occurrence of the character c (an unsigned char) in the first n bytes of the string pointed to, by the argument str.| video|
  | [`ft_memcmp`](https://github.com/alessiotucci/libft_42/blob/master/ft_memcmp.c) |The C library function int memcmp(const void *str1, const void *str2, size_t n)) compares the first n bytes of memory area str1 and memory area str2.| video|
  | [`ft_memcpy`](https://github.com/alessiotucci/libft_42/blob/master/ft_memcpy.c) |memcpy() in C is used to copy specified bytes of memory from source address to destination address. The memcpy function returns a void pointer which stores the address of the destination. The memcpy function uses pointers to store the address of source and destination. In C memcpy function is defined in string.|[![](https://ytcards.demolab.com/?id=PThPm24wGEo&ab_channel=PortfolioCourseslang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "calloc explained")](https://youtu.be/PThPm24wGEo)| 
  | [`ft_memmove`](https://github.com/alessiotucci/libft_42/blob/master/ft_memmove.c) |The C library function void *memmove(void *str1, const void *str2, size_t n) copies n characters from str2 to str1, but for overlapping memory blocks, memmove() is a safer approach than memcpy().| [![](https://ytcards.demolab.com/?id=DGwdAQauEV4&ab_channel=PortfolioCourses&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "calloc explained")](https://youtu.be/DGwdAQauEV4)|
  | [`ft_memmove_fixed`](https://github.com/alessiotucci/libft_42/blob/master/ft_memmove_fixed.c) | description | video|
- | [`ft_memset`](https://github.com/alessiotucci/libft_42/blob/master/ft_memset.c) | description | video|
+ | [`ft_memset`](https://github.com/alessiotucci/libft_42/blob/master/ft_memset.c) |The memset() function sets the first count bytes of dest to the value c . The value of c is converted to an unsigned character. The memset() function returns a pointer to dest .
+| video|
  
  ### Strings function 
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
  | [`ft_strchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strchr.c) |The strchr() function returns a pointer to the first occurrence of c that is converted to a character in string. The function returns NULL if the specified character is not found.| [![](https://ytcards.demolab.com/?id=x8gsHFBW7zY&ab_channel=PortfolioCourses&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Free coding school 42 Roma")](https://youtu.be/x8gsHFBW7zY)|
- | [`ft_strlcat`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlcat.c) | description | video|
- | [`ft_strlcpy`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlcpy.c) | description | video| 
- | [`ft_strlen`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlen.c) | description | video|
+ | [`ft_strlcat`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlcat.c) |The strlcat() function appends the NUL-terminated string src to the end of dst. It will append at most size - strlen(dst) - 1 bytes, NUL-terminating the result. The source and destination strings should not overlap, as the behavior is undefined.| video|
+ | [`ft_strlcpy`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlcpy.c) |he strlcpy function is intended to replace the function strcpy (which copies a string to a destination buffer) with a secure version that cannot overflow the destination buffer.| video| 
+ | [`ft_strlen`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlen.c) |The strlen() function in C is used to find the length of a string.| video|
  | [`ft_strmapi`](https://github.com/alessiotucci/libft_42/blob/master/ft_strmapi.c) | description | video|
  | [`ft_strncmp`](https://github.com/alessiotucci/libft_42/blob/master/ft_strncmp.c) | description | video|
  | [`ft_strnstr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strnstr.c) | description | video|
