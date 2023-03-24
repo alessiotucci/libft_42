@@ -6,8 +6,7 @@ This repository contains a collection of functions implemented in C language and
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
    | [`Makefile`](https://github.com/alessiotucci/libft_42/blob/master/Makefile) | Makefile helps you compile all your .c files together. After the piscine you most likely will need it in all your project, learn the syntax  | [![Makefile](https://ytcards.demolab.com/?id=GExnnTaBELk&ab_channel=BarryBrown&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Makefile")](https://www.youtube.com/live/GExnnTaBELk?feature=share)|
-   | [`libft.h`](https://github.com/alessiotucci/libft_42/blob/master/libft.h) | this is the header file where you should add all the prototype |[![](https://ytcards.demolab.com/?id=x8gsHFBW7zY&ab_channel=PortfolioCoursesi&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Free coding school 42 Roma")](https://youtu.be/x8gsHFBW7zY)
-|
+   | [`libft.h`](https://github.com/alessiotucci/libft_42/blob/master/libft.h) | this is the header file where you should add all the prototype |[![](https://ytcards.demolab.com/?id=x8gsHFBW7zY&ab_channel=PortfolioCoursesi&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Free coding school 42 Roma")](https://youtu.be/x8gsHFBW7zY)|
 
   ### <ctype.h> library
 | function name | Description | youtube links |
