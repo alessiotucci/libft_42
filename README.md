@@ -39,11 +39,11 @@ This repository contains a collection of functions implemented in C language and
  | [`ft_strlcpy`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlcpy.c) |he strlcpy function is intended to replace the function strcpy (which copies a string to a destination buffer) with a secure version that cannot overflow the destination buffer.| video| 
  | [`ft_strlen`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlen.c) |The strlen() function in C is used to find the length of a string.| video|
  | [`ft_strmapi`](https://github.com/alessiotucci/libft_42/blob/master/ft_strmapi.c) | description | video|
- | [`ft_strncmp`](https://github.com/alessiotucci/libft_42/blob/master/ft_strncmp.c) | description | video|
+ | [`ft_strncmp`](https://github.com/alessiotucci/libft_42/blob/master/ft_strncmp.c) |The strncmp() built-in function compares at most the first count characters of the string pointed to by string1 to the string pointed to by string2. The string arguments to the function should contain a NULL character ( \0 ) marking the end of the string.| video|
  | [`ft_strnstr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strnstr.c) | description | video|
  | [`ft_strchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strchr.c) | description | video|
  | [`ft_strrchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strrchr.c) | description | video|
- | [`ft_strtrim`](https://github.com/alessiotucci/libft_42/blob/master/ft_strtrim.c) | description | video|
+ | [`ft_strtrim`](https://github.com/alessiotucci/libft_42/blob/master/ft_strtrim.c) |strtrim removes all whitespace characters from the beginning and the end of a string| video|
  | [`ft_substr`](https://github.com/alessiotucci/libft_42/blob/master/ft_substr.c) | description | video|
    
    
@@ -53,10 +53,10 @@ This repository contains a collection of functions implemented in C language and
 | function name | Description | youtube links |
  | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------- |
 | [`ft_atoi`](https://github.com/alessiotucci/libft_42/blob/master/ft_atoi.c) |The atoi() function converts a character string to an integer value. The input string is a sequence of characters that can be interpreted as a numeric value of the specified return type. The function stops reading the input string at the first character that it cannot recognize as part of a number.| [![](https://ytcards.demolab.com/?id=2I9XO8jwZCA&ab_channel=TECHDOSE&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Implement atoi")](https://youtu.be/2I9XO8jwZCA)| 
-| [`ft_strdup`](https://github.com/alessiotucci/libft_42/blob/master/ft_strdup.c) | description | video| 
-| [`ft_strjoin`](https://github.com/alessiotucci/libft_42/blob/master/ft_strjoin.c) | description | video| 
+| [`ft_strdup`](https://github.com/alessiotucci/libft_42/blob/master/ft_strdup.c) |This function returns a pointer to a null-terminated byte string, which is a duplicate of the string pointed to by s. The memory obtained is done dynamically using malloc and hence it can be freed using free(). It returns a pointer to the duplicated string s.| video| 
+| [`ft_strjoin`](https://github.com/alessiotucci/libft_42/blob/master/ft_strjoin.c) || video| 
 | [`ft_split`](https://github.com/alessiotucci/libft_42/blob/master/ft_split.c) | description | video| 
-| [`ft_itoa`](https://github.com/alessiotucci/libft_42/blob/master/ft_itoa.c) | description | [![](https://ytcards.demolab.com/?id=x8gsHFBW7zY&ab_channel=PortfolioCourses&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Free coding school 42 Roma")](https://youtu.be/x8gsHFBW7zY)|
+| [`ft_itoa`](https://github.com/alessiotucci/libft_42/blob/master/ft_itoa.c) |The itoa() function coverts the integer n into a character string. The string is placed in the buffer passed, which must be large enough to hold the output| [![](https://ytcards.demolab.com/?id=x8gsHFBW7zY&ab_channel=PortfolioCourses&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Free coding school 42 Roma")](https://youtu.be/x8gsHFBW7zY)|
 | [`ft_striteri`](https://github.com/alessiotucci/libft_42/blob/master/ft_striteri.c) | description | video| 
 | [`ft_putchar_fd`](https://github.com/alessiotucci/libft_42/blob/master/ft_putchar_fd.c) | description | video| 
 | [`ft_putstr_fd`](https://github.com/alessiotucci/libft_42/blob/master/ft_putstr_fd.c) | description | video|
