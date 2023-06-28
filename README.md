@@ -39,7 +39,7 @@ This repository contains a collection of functions implemented in C language and
  | [`ft_strlcpy`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlcpy.c) |he strlcpy function is intended to replace the function strcpy (which copies a string to a destination buffer) with a secure version that cannot overflow the destination buffer.| video| 
  | [`ft_strlen`](https://github.com/alessiotucci/libft_42/blob/master/ft_strlen.c) |The strlen() function in C is used to find the length of a string.| video|
  | [`ft_strmapi`](https://github.com/alessiotucci/libft_42/blob/master/ft_strmapi.c) | description | video|
- | [`ft_strncmp`](https://github.com/alessiotucci/libft_42/blob/master/ft_strncmp.c) |The strncmp() built-in function compares at most the first count characters of the string pointed to by string1 to the string pointed to by string2. The string arguments to the function should contain a NULL character ( \0 ) marking the end of the string.| video|
+ | [`ft_strncmp`](https://github.com/alessiotucci/libft_42/blob/master/ft_strncmp.c) |The strncmp() built-in function compares at most the first count characters of the string pointed to by string1 to the string pointed to by string2. The string arguments to the function should contain a NULL character ( \0 ) marking the end of the string.|[![](https://ytcards.demolab.com/?id=Vx3GyTVFcMA&ab_channel=PortfolioCourses "strncmp")](https://youtu.be/Vx3GyTVFcMA)|
  | [`ft_strnstr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strnstr.c) | description | video|
  | [`ft_strchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strchr.c) | description | video|
  | [`ft_strrchr`](https://github.com/alessiotucci/libft_42/blob/master/ft_strrchr.c) | description | video|
